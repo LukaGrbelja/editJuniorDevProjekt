@@ -1,12 +1,15 @@
 import './App.css';
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import rootRoute from './Components/Root';
 
-function App() {
+const router = createBrowserRouter([
+	rootRoute
+]);
+
+function App(): JSX.Element {
 
 	return (
-		<>
-
-		</>
+		<RouterProvider router={router} />
 	)
 }
 
