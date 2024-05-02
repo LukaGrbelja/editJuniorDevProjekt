@@ -1,12 +1,16 @@
-import { Link } from "react-router-dom";
+import Card from "../HTMLcomponents/Card/Card";
 
-function AssociationCard({data}: {data: number}): JSX.Element {
+function AssociationCard({data}: {data: any}): JSX.Element {
     return(
-        <>
-            Kartica za Udruge
-            <hr />
-            <Link to={"/associations/association/" + data}>Link</Link>
-        </>
+        <Card>
+            <Card.Row>
+                <Card.Element>
+                    <h2>{data.name}</h2>
+                </Card.Element>
+                <h5>{data.city}</h5>
+            </Card.Row>
+            <Card.Link linkUrl={"/associations/association/" + data.id} />
+        </Card>
     );
 }
 

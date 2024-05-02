@@ -1,6 +1,32 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+nav {
+  width: 100%;
+  border-bottom: 1px white solid;
+  position: fixed;
+  top: 0px;
+  background-color: #242424;
+}
+
+nav a {
+  float: inline-start;
+  padding: 2%;
+  width: 15%;
+}
+
+.mainContent {
+  border: 1px white solid;
+  border-radius: 2%;
+  padding: 10%;
+  margin: 5%;
+}
+
+.intro {
+  border: 1px #080808 solid;
+  background-color: #151515;
+  margin: 5%;
 }

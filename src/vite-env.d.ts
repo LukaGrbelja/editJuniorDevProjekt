@@ -3,8 +3,8 @@
 type route = {
 	path: string;
 	element: JSX.Element;
-	loader?: (prop: any) => Promise<any>;
-	action?: (prop: any) => Promise<any>;
+	loader?: any;
+	action?: any;
 	children: Array<route>;
 }
 

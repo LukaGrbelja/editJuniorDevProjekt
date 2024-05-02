@@ -16,10 +16,9 @@ function Root(): JSX.Element {
                 <NavLink to={"/"}>Pocetna</NavLink>
                 <NavLink to={"/activities"}>Aktivnosti</NavLink>
                 <NavLink to={"/volunteers"}>Volonteri</NavLink>
-                <NavLink to={"/"}>Udruge</NavLink>
+                <NavLink to={"/associations"}>Udruge</NavLink>
             </nav>
-            <div>
-                Stranica
+            <div className="mainContent">
                 <Outlet />
             </div>
         </>

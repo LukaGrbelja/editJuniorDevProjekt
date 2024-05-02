@@ -1,0 +1,47 @@
+{
+  "activities": [
+    {
+      "id": "0",
+      "title": "Aktivnost 1",
+      "user": "Udruga 1",
+      "userId": "000000",
+      "description": "Neki lorem ipsum",
+      "volunteers": [
+        "CurrentUser",
+        "CurrentUser",
+        "CurrentUser",
+        "CurrentUser"
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Aktivnost 2",
+      "user": "Udruga 1",
+      "userId": "000000",
+      "description": "",
+      "volunteers": []
+    }
+  ],
+  "volunteers": [
+    {
+      "id": "0",
+      "name": "",
+      "surname": "",
+      "sex": "",
+      "age": "",
+      "activities": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "associations": [
+    {
+      "id": "0",
+      "name": "",
+      "city": "",
+      "address": "",
+      "email": ""
+    }
+  ]
+}

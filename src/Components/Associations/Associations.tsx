@@ -1,16 +1,24 @@
+import loader from "../HTMLcomponents/loader";
 import AssociationCard from "./AssociationCard";
+import ResolvedData from "../HTMLcomponents/ResolvedData";
+import MainComponent from "../HTMLcomponents/MainContent";
+
+const associationLoader = loader("http://localhost:3000/associations");
 
 function Associations(): JSX.Element {
     return (
-        <>
-            {[1, 2, 3].map(el => <AssociationCard key={el} data={el} />)}
-        </>
+        <MainComponent title="Udruge">
+            <ResolvedData Card={AssociationCard} />
+        </MainComponent>
     );
 }
 
 const associationsRoute: route = {
     path: "/associations",
     element: <Associations />,
+    loader: async () => {
+        return associationLoader;
+    },
     children: []
 }
 
