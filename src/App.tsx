@@ -1,6 +1,7 @@
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import rootRoute from './Components/Root';
+import UserContextProvider from './Contexts/UserContext';
 
 const router = createBrowserRouter([
 	rootRoute
@@ -9,7 +10,9 @@ const router = createBrowserRouter([
 function App(): JSX.Element {
 
 	return (
-		<RouterProvider router={router} />
+		<UserContextProvider>
+			<RouterProvider router={router} />
+		</UserContextProvider>
 	)
 }
 

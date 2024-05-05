@@ -10,6 +10,7 @@ nav {
   position: fixed;
   top: 0px;
   background-color: #242424;
+  z-index: 9;
 }
 
 nav a {
@@ -18,15 +19,40 @@ nav a {
   width: 15%;
 }
 
+nav button {
+  margin: 2%;
+}
+
 .mainContent {
   border: 1px white solid;
   border-radius: 2%;
-  padding: 10%;
+  padding: 5%;
   margin: 5%;
+  margin-top: 10%;
 }
 
 .intro {
   border: 1px #080808 solid;
   background-color: #151515;
   margin: 5%;
+}
+
+.dodaj {
+  color: white;
+  padding: 15px 32px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dodaj span {
+  margin-left: 10px;
+}
+
+.deleteElement {
+  position: relative;
+  background-color: red;
+  float: right;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
 }

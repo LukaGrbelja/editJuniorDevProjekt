@@ -1,47 +1,36 @@
 {
   "activities": [
     {
-      "id": "0",
-      "title": "Aktivnost 1",
-      "user": "Udruga 1",
-      "userId": "000000",
-      "description": "Neki lorem ipsum",
-      "volunteers": [
-        "CurrentUser",
-        "CurrentUser",
-        "CurrentUser",
-        "CurrentUser"
-      ]
-    },
-    {
-      "id": "1",
-      "title": "Aktivnost 2",
-      "user": "Udruga 1",
-      "userId": "000000",
-      "description": "",
-      "volunteers": []
+      "id": 226918378,
+      "poster": "trecitreci",
+      "title": "Nova aktivnost",
+      "organisation": "Pro recco",
+      "location": "Split",
+      "date": "2024-05-15",
+      "description": "ynavo isa u lidla kupit limune"
     }
   ],
   "volunteers": [
     {
-      "id": "0",
-      "name": "",
-      "surname": "",
-      "sex": "",
-      "age": "",
+      "id": 408959394,
+      "name": "Luka",
+      "surname": "Grbelja",
+      "location": "Split",
+      "age": "19",
+      "description": "ynavo isa u lidla kupit limune",
       "activities": [
-        "",
-        ""
+        "Ekologija",
+        "Edukacija"
       ]
     }
   ],
   "associations": [
     {
-      "id": "0",
-      "name": "",
-      "city": "",
-      "address": "",
-      "email": ""
+      "id": "509087368",
+      "name": "udruga antianti",
+      "location": "Split",
+      "address": "bu[ic",
+      "email": "raietrema@gmail.com"
     }
   ]
 }

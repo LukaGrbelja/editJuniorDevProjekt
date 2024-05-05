@@ -5,12 +5,23 @@ function Index(): JSX.Element {
         <>
             <h1>Pocetna</h1>
             <div className="intro">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nisi porta lorem mollis aliquam. Purus sit amet volutpat consequat mauris nunc congue nisi vitae. Tincidunt arcu non sodales neque sodales ut etiam sit amet. Ipsum dolor sit amet consectetur adipiscing. Tristique magna sit amet purus gravida quis blandit. Nullam vehicula ipsum a arcu cursus vitae congue. Commodo odio aenean sed adipiscing diam. In pellentesque massa placerat duis ultricies lacus sed. Mattis nunc sed blandit libero volutpat.
+                Ova web stranica namijenjena je korisnicima koji žele sudjelovati u volonterskim aktivnostima. Na stranici možete pronaći informacije o trenutnim volonterskim projektima, udruženjima i volonterima. Također, imate mogućnost predstaviti sebe kao volontera ili pronaći druge volontere s kojima biste željeli surađivati.
+                <br /><br />Neke funkcionalnosti stranice:
+                <ul>
+                    <li>Pretraživanje volonterskih aktivnosti: Korisnici mogu pretraživati trenutne volonterske projekte prema interesima, lokaciji ili vremenskom periodu. To će im omogućiti da pronađu aktivnosti koje najbolje odgovaraju njihovim preferencijama.</li>
+                    <li>Profil volontera: Svaki volonter može stvoriti svoj profil na stranici. Ovdje mogu dodati informacije o sebi, svojim vještinama i iskustvu. To će pomoći drugim korisnicima da bolje razumiju tko ste i kako mogu surađivati s vama.</li>
+                    <li>Ocjene i recenzije: Nakon sudjelovanja u volonterskim aktivnostima, korisnici mogu ostaviti ocjene i recenzije za udruženja i druge volontere. Ovo će pomoći drugima da donesu informirane odluke o sudjelovanju u određenim projektima.</li>
 
-                Felis imperdiet proin fermentum leo vel. Pellentesque pulvinar pellentesque habitant morbi. Nunc scelerisque viverra mauris in aliquam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Purus faucibus ornare suspendisse sed nisi lacus sed. Facilisis sed odio morbi quis commodo odio aenean sed adipiscing. Neque viverra justo nec ultrices dui sapien eget mi proin. Est ante in nibh mauris cursus mattis molestie a. Et ultrices neque ornare aenean euismod elementum nisi quis. Lacus vestibulum sed arcu non odio. Proin fermentum leo vel orci. Quis risus sed vulputate odio ut enim blandit. Viverra maecenas accumsan lacus vel facilisis volutpat est. Felis donec et odio pellentesque.
-
-                Integer malesuada nunc vel risus commodo viverra. In aliquam sem fringilla ut. Duis convallis convallis tellus id interdum velit laoreet id. Semper risus in hendrerit gravida rutrum quisque. Morbi enim nunc faucibus a pellentesque. Tincidunt tortor aliquam nulla facilisi cras. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Etiam dignissim diam quis enim lobortis. Donec et odio pellentesque diam volutpat commodo. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Dolor sit amet consectetur adipiscing. Metus dictum at tempor commodo ullamcorper a. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Maecenas accumsan lacus vel facilisis volutpat. Quis auctor elit sed vulputate mi sit amet mauris. Turpis massa sed elementum tempus egestas sed sed.
+                </ul>
             </div>
+            <h2>Predstavljanje autora</h2>
+            <p>
+                Mi smo tim entuzijastičnih programera koji su se udružili kako bismo stvorili ovu platformu. Naša strast je pomoći zajednici i omogućiti ljudima da se angažiraju u volonterskim aktivnostima. Saznajte više o našim članovima na našem Github profilu.
+            </p>
+            <h2>Kontakt</h2>
+            <p>
+                Ako imate pitanja ili želite sudjelovati u našem projektu, slobodno nas kontaktirajte putem kontakt forme ili posjetite naš LinkedIn profil.
+            </p>
             <ExternalLink url="https://github.com/LukaGrbelja/editJuniorDevProjekt" tekst="Github profil" />
         </>
     );

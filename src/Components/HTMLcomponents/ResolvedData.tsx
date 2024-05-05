@@ -1,6 +1,6 @@
 import { useAsyncValue } from "react-router-dom";
 
-function ResolvedData({Card}: {Card: (props: any) => JSX.Element}) {
+function ResolvedData({ Card }: { Card: (props: any) => JSX.Element }) {
     let resolvedData: any = useAsyncValue();
     return (
         <div>
