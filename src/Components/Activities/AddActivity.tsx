@@ -74,7 +74,7 @@ function AddActivity() {
             <FormElement.Input
                 dodatneInformacije={{
                     type: "submit",
-                    value: "Posalji"
+                    value: "Pošalji"
                 }}
             />
         </FormElement>

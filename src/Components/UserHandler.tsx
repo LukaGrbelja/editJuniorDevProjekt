@@ -34,7 +34,7 @@ function UserHandler() {
             <FormElement.Input
                 dodatneInformacije={{
                     name: "username",
-                    text: "Username",
+                    text: "Korisničko ime",
                     type: "text",
                     minLength: 3,
                     pattern: "[A-Za-z0-9]+",
@@ -44,7 +44,7 @@ function UserHandler() {
             <FormElement.Input
                 dodatneInformacije={{
                     name: "password",
-                    text: "Password",
+                    text: "Lozinka",
                     type: "password",
                     minLength: 6,
                     pattern: "[A-Za-z0-9]+",

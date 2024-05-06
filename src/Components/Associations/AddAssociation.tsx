@@ -64,7 +64,7 @@ function AddAssociation() {
             <FormElement.Input
                 dodatneInformacije={{
                     type: "submit",
-                    value: "Posalji"
+                    value: "Pošalji"
                 }}
             />
         </FormElement>

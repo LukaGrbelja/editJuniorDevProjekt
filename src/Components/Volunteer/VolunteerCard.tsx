@@ -1,10 +1,9 @@
 import { useContext } from "react";
 import Card from "../HTMLcomponents/Card/Card";
 import { UserContext } from "../../Contexts/UserContext";
-import axios from "axios";
 
-function VolunteerCard({ data }: any): JSX.Element {
-    const { user } = useContext(UserContext);
+function VolunteerCard({ data, deleteData }: { data: volunteerData, deleteData: (id: string) => void }): JSX.Element {
+    const { user }: userContextProvider = useContext(UserContext);
     return (
         <Card>
             <Card.Row>
@@ -13,14 +12,10 @@ function VolunteerCard({ data }: any): JSX.Element {
             <hr />
             <h2>{data.name} {data.surname}</h2>
             <Card.Row>
-                Kontakt:
+                Grad: {data.location}
             </Card.Row>
-            Prethodne aktivnosti
-            <ul>
-                {data.activities.map((el: any) => <li key={el}>1</li>)}
-            </ul>
             <Card.Link linkUrl={"/volunteers/volunteer/" + data.id} />
-            {user === "admin" ? <button className="deleteElement" onClick={() => { axios.delete("http://localhost:5173/volunteers/" + data.id) }}>izbrisi</button> : <></>}
+            {user === "admin" ? <button className="deleteElement" onClick={() => deleteData(data.id)}>&#x2716;</button> : <></>}
         </Card>
     );
 }

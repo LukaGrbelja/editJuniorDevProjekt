@@ -1,23 +1,26 @@
 {
   "activities": [
     {
-      "id": 226918378,
+      "id": "226918378",
       "poster": "trecitreci",
       "title": "Nova aktivnost",
       "organisation": "Pro recco",
       "location": "Split",
       "date": "2024-05-15",
-      "description": "ynavo isa u lidla kupit limune"
+      "description": "Isa u lidla kupit limune",
+      "volunteers": [
+        "admin"
+      ]
     }
   ],
   "volunteers": [
     {
-      "id": 408959394,
-      "name": "Luka",
-      "surname": "Grbelja",
+      "id": "408959394",
+      "name": "Random",
+      "surname": "Lik",
       "location": "Split",
       "age": "19",
-      "description": "ynavo isa u lidla kupit limune",
+      "description": "Kupujem limune!",
       "activities": [
         "Ekologija",
         "Edukacija"
@@ -30,7 +33,8 @@
       "name": "udruga antianti",
       "location": "Split",
       "address": "bu[ic",
-      "email": "raietrema@gmail.com"
+      "email": "glupifejk@gmail.com",
+      "approved": true
     }
   ]
 }

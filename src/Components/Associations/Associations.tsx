@@ -19,7 +19,7 @@ function Associations(): JSX.Element {
                     </button>
                 </Link> : <></>
             }
-            <ResolvedData Card={AssociationCard} />
+            <ResolvedData Card={AssociationCard} filter={() => true} />
         </MainComponent>
     );
 }

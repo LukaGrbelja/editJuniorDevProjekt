@@ -9,7 +9,7 @@ import { useContext } from "react";
 const activityLoader = loader("http://localhost:3000/activities");
 
 function Activities(): JSX.Element {
-    const { user } = useContext(UserContext);
+    const { user }: userContextProvider = useContext(UserContext);
     return (
         <MainComponent title="Aktivnosti">
             {user ?
@@ -19,7 +19,7 @@ function Activities(): JSX.Element {
                     </button>
                 </Link> : <></>
             }
-            <ResolvedData Card={ActivityCard} />
+            <ResolvedData Card={ActivityCard} filter={() => true} />
         </MainComponent>
     );
 }

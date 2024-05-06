@@ -56,7 +56,7 @@ function AddVolunteer() {
             <FormElement.Input
                 dodatneInformacije={{
                     name: "age",
-                    text: "Years",
+                    text: "Godine",
                     type: "number"
                 }}
             />
@@ -77,7 +77,7 @@ function AddVolunteer() {
             <FormElement.Input
                 dodatneInformacije={{
                     type: "submit",
-                    value: "Posalji"
+                    value: "Pošalji"
                 }}
             />
         </FormElement>

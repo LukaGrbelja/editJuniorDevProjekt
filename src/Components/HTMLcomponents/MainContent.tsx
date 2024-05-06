@@ -1,9 +1,8 @@
 import { Suspense } from "react";
 import { Await, useLoaderData } from "react-router-dom";
 
-function MainComponent({ title, children }: { title: string, children: Array<JSX.Element> }): JSX.Element {
+function MainComponent({ title, children }: mainContentData): JSX.Element {
     let { request }: any = useLoaderData();
-    console.log(request);
     return (
         <>
             <h2>{title}</h2>
