@@ -10,8 +10,8 @@ function ResolvedData({ Card, filter }: { Card: (props: any) => JSX.Element, fil
         setState(prevState => prevState.filter(filter));
     }, []);
 
-    const deleteElement = (id: string) => {
-        axios.delete("http://localhost:3000/activities/" + id);
+    const deleteElement = (id: string, data: string) => {
+        axios.delete("http://localhost:3000/" + data + "/" + id);
         setState(prevState => prevState.filter(element => element.id !== id));
     }
 

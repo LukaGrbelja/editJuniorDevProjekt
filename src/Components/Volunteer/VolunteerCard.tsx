@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Card from "../HTMLcomponents/Card/Card";
 import { UserContext } from "../../Contexts/UserContext";
 
-function VolunteerCard({ data, deleteData }: { data: volunteerData, deleteData: (id: string) => void }): JSX.Element {
+function VolunteerCard({ data, deleteData }: { data: volunteerData, deleteData: (id: string, data: string) => void }): JSX.Element {
     const { user }: userContextProvider = useContext(UserContext);
     return (
         <Card>
@@ -15,7 +15,7 @@ function VolunteerCard({ data, deleteData }: { data: volunteerData, deleteData: 
                 Grad: {data.location}
             </Card.Row>
             <Card.Link linkUrl={"/volunteers/volunteer/" + data.id} />
-            {user === "admin" ? <button className="deleteElement" onClick={() => deleteData(data.id)}>&#x2716;</button> : <></>}
+            {user === "admin" ? <button className="deleteElement" onClick={() => deleteData(data.id, "volunteers")}>&#x2716;</button> : <></>}
         </Card>
     );
 }

@@ -1,18 +1,5 @@
 {
-  "activities": [
-    {
-      "id": "226918378",
-      "poster": "trecitreci",
-      "title": "Nova aktivnost",
-      "organisation": "Pro recco",
-      "location": "Split",
-      "date": "2024-05-15",
-      "description": "Isa u lidla kupit limune",
-      "volunteers": [
-        "admin"
-      ]
-    }
-  ],
+  "activities": [],
   "volunteers": [
     {
       "id": "408959394",
@@ -27,14 +14,5 @@
       ]
     }
   ],
-  "associations": [
-    {
-      "id": "509087368",
-      "name": "udruga antianti",
-      "location": "Split",
-      "address": "bu[ic",
-      "email": "glupifejk@gmail.com",
-      "approved": true
-    }
-  ]
+  "associations": []
 }

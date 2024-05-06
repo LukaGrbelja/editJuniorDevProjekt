@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Card from "../HTMLcomponents/Card/Card";
 import { UserContext } from "../../Contexts/UserContext";
 
-function AssociationCard({ data, deleteData }: { data: associationData, deleteData: (id: string) => void }): JSX.Element {
+function AssociationCard({ data, deleteData }: { data: associationData, deleteData: (id: string, data: string) => void }): JSX.Element {
     const { user }: userContextProvider = useContext(UserContext);
     return (
         <Card>
@@ -16,7 +16,7 @@ function AssociationCard({ data, deleteData }: { data: associationData, deleteDa
                     Adresa: {data.address}
                 </Card.Element>
             </Card.Row>
-            {user === "admin" ? <button className="deleteElement" onClick={() => deleteData(data.id)}>&#x2716;</button> : <></>}
+            {user === "admin" ? <button className="deleteElement" onClick={() => deleteData(data.id, "associations")}>&#x2716;</button> : <></>}
             <br />
         </Card>
     );
